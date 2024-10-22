@@ -324,16 +324,16 @@ def main():
 
     for i in range(-10, 10): # draw the free border
         ox.append(i)
-        oy.append(-6i+60)
+        oy.append(-3*i+30)
 
     for i in range(-10,30):
         ox.append(i)
-        oy.append(-15/40*i+60)
+        oy.append(-15/40*i+60-15/4)
     
     for i in range(10,50):
         ox.append(i)
-        oy.append(-1/4*i+30)
-    
+        oy.append(-1/4*i+32.5)
+        
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
     #     oy.append(30.0)
