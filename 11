@@ -338,21 +338,19 @@ def main():
     #     ox.append(i)
     #     oy.append(30.0)
 
-
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(10, 20):
-        for j in range(20, 50):
+    for i in range(35, 50):
+        for j in range(35, 50):
             tc_x.append(i)
             tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
-    for i in range(30, 40):
+    for i in range(25, 30):
         for j in range(0, 20):
             fc_x.append(i)
             fc_y.append(j)
-
 
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
