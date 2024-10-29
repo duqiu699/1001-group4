@@ -47,8 +47,8 @@ class AStarPlanner:
         self.tc_y = tc_y
         
 
-        self.Delta_C1 = 0.2 # cost intensive area 1 modifier
-        self.Delta_C2 = 1 # cost intensive area 2 modifier
+        self.Delta_C1 = 0.3 # cost intensive area 1 modifier
+        self.Delta_C2 = 0.15 # cost intensive area 2 modifier
 
         self.costPerGrid = 1 
 
