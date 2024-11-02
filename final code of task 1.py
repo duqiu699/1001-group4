@@ -51,7 +51,7 @@ class AStarPlanner:
 
         self.Delta_C1 = 1.3 # cost intensive area 1 modifier
         self.Delta_C2 = 1.15 # cost intensive area 2 modifier
-        self.Delta_C3 = 0 #jet stream
+        self.Delta_C3 = 1 #jet stream
 
         self.costPerGrid = 1 
 
@@ -120,32 +120,37 @@ class AStarPlanner:
                 goal_node.cost = current.cost
 
                 #calculate trip cost
+
+                #input all data
                 passengers = int(input("Enter number of passengers: "))
                 cost_fuel = float(input("Enter the cost of fuel per kg: "))
                 time_cost_type = input("Enter the time cost type:'low'or'medium'or'high':")   #enter "low" or "medium" or "high"
                 maximum_flights = int(input("Enter maximum flights of total time interval:"))
-
+                
                 Aircrafts = ["A321","A330","A350"]
                 flights = None
 
+                #use dictionary to encapsulate data of three types of aircraft
                 dict1 = {"A321":{"fuel_comsumption_rate":54,"passenger_capacity":200,"time_cost":{"low":10,"medium":15,"high":20},"fixed_cost":1800},
                          "A330":{"fuel_comsumption_rate":84,"passenger_capacity":300,"time_cost":{"low":15,"medium":21,"high":27},"fixed_cost":2000},
                          "A350":{"fuel_comsumption_rate":90,"passenger_capacity":350,"time_cost":{"low":20,"medium":27,"high":34},"fixed_cost":2500}}
                 
+                #for each aircraft, calculate the total cost
                 for aircraft in Aircrafts:
+
+                    #calculate flights
                     if passengers % (dict1[aircraft]["passenger_capacity"]) == 0:
                         flights= passengers//(dict1[aircraft]["passenger_capacity"])
                     else:
                         flights= passengers//(dict1[aircraft]["passenger_capacity"])+ 1  #calculate the number of flights
 
-
+                    #judge whether it is viable
                     if flights > maximum_flights:
                         print(f"{aircraft} not viable")
 
                     else:    #if flights<=maximum_flights, calculate the total cost
                      
-
-                        trip_fuel = dict1[aircraft]["fuel_comsumption_rate"]
+                        trip_fuel = dict1[aircraft]["fuel_comsumption_rate"]     #fetch the data from the dictionary
                         trip_time = current.cost
                         time_related_cost = dict1[aircraft]["time_cost"][time_cost_type]
                         fixed_cost = dict1[aircraft]["fixed_cost"]
@@ -186,7 +191,7 @@ class AStarPlanner:
                 if self.calc_grid_position(node.x, self.min_x) in self.nc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.nc_y:
                         # print("cost intensive area!!")
-                        node.cost = node.cost - self.Delta_C3 * self.motion[i][2]
+                        node.cost = node.cost + self.Delta_C3 * self.motion[i][2]
 
                 n_id = self.calc_grid_index(node)
 
