@@ -114,7 +114,8 @@ class AStarPlanner:
             if current.x == goal_node.x and current.y == goal_node.y:
                 print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
-                goal_node.cost = current.cost                
+                goal_node.cost = current.cost 
+                print(scenario1)
                 pe = 3000
                 fi = 12
                 money = (0.76*54*current.cost + 15*current.cost + 1800)* math.ceil(pe/200)
@@ -130,6 +131,48 @@ class AStarPlanner:
                     print('Total cost of operating A330 in this scenrio:',end=' ')
                     print(money1)
                 money2 =(0.76*90*current.cost + 27*current.cost + 2500)* math.ceil(pe/350)
+                if (pe/350) > fi:
+                    print('A350 is visble!')
+                if (pe/350) < fi:
+                    print('Total cost of operating A350 in this scenrio:',end=' ')
+                    print(money2)
+                print('scenario2')
+                pe = 1250
+                fi = 5
+                money = (0.88*54*current.cost + 20*current.cost + 1800)* math.ceil(pe/200)
+                if (pe/200) > fi:
+                    print('A321 is visble!')
+                if (pe/200) < fi:
+                    print('Total cost of operating A321 in this scenrio:',end=' ')
+                    print(money)
+                money1 = (0.88*84*current.cost + 27*current.cost + 2000)* math.ceil(pe/300)
+                if (pe/300) > fi:
+                    print('A330 is visble!')
+                if (pe/300) < fi:
+                    print('Total cost of operating A330 in this scenrio:',end=' ')
+                    print(money1)
+                money2 =(0.88*90*current.cost + 34*current.cost + 2500)* math.ceil(pe/350)
+                if (pe/350) > fi:
+                    print('A350 is visble!')
+                if (pe/350) < fi:
+                    print('Total cost of operating A350 in this scenrio:',end=' ')
+                    print(money2)
+                print('scenario3')
+                pe = 2500
+                fi = 25
+                money = (0.95*54*current.cost + 10*current.cost + 1800)* math.ceil(pe/200)
+                if (pe/200) > fi:
+                    print('A321 is visble!')
+                if (pe/200) < fi:
+                    print('Total cost of operating A321 in this scenrio:',end=' ')
+                    print(money)
+                money1 = (0.95*84*current.cost + 15*current.cost + 2000)* math.ceil(pe/300)
+                if (pe/300) > fi:
+                    print('A330 is visble!')
+                if (pe/300) < fi:
+                    print('Total cost of operating A330 in this scenrio:',end=' ')
+                    print(money1)
+                money2 =(0.95*90*current.cost + 20*current.cost + 2500)* math.ceil(pe/350)
                 if (pe/350) > fi:
                     print('A350 is visble!')
                 if (pe/350) < fi:
