@@ -116,31 +116,41 @@ class AStarPlanner:
             # reaching goal
             if current.x == goal_node.x and current.y == goal_node.y:
                 print("Total Trip time required -> ",current.cost )
-            
+                goal_node.parent_index = current.parent_index
+                goal_node.cost = current.cost
+
                 #calculate trip cost
                 passengers = int(input("Enter number of passengers: "))
-                passenger_capacity = int(input("Enter passenger capacity: "))
-                flights = None
-                if passengers%passenger_capacity == 0:
-                    flights= passengers//passenger_capacity
-                else:
-                    flights= passengers//passenger_capacity + 1  #calculate the number of flights
+                aircraft = str(input("the aircraft type you choose:"))
+                cost_fuel = float(input("Enter the cost of fuel per kg: "))
+                time_cost_type = input("Enter the time cost type:'low'or'medium'or'high':")   #enter "low" or "medium" or "high"
+                maximum_flights=int(input("Enter maximum flights of one week:"))
 
-                if flights > 12:
+                flights = None
+
+                dict1 = {"A321neo":{"fuel_comsumption_rate":54,"passenger_capacity":200,"time_cost":{"low":10,"medium":15,"high":20},"fixed_cost":1800},
+                         "A330-900neo":{"fuel_comsumption_rate":84,"passenger_capacity":300,"time_cost":{"low":15,"medium":21,"high":27},"fixed_cost":2000},
+                         "A350-900":{"fuel_comsumption_rate":90,"passenger_capacity":350,"time_cost":{"low":20,"medium":27,"high":34},"fixed_cost":2500}}
+
+                if passengers % (dict1[aircraft]["passenger_capacity"]) == 0:
+                    flights= passengers//(dict1[aircraft]["passenger_capacity"])
+                else:
+                    flights= passengers//(dict1[aircraft]["passenger_capacity"])+ 1  #calculate the number of flights
+
+
+                if flights > maximum_flights:
                     print("Too many flights, we can't choose this one")
 
-                else:    #if flights<=10, calculate the total cost
-                    cost_fuel = float(input("Enter the cost of fuel per kg: "))
-                    trip_fuel = int(input("fuel comsumption rate:"))
+                else:    #if flights<=maximum_flights, calculate the total cost
+                     
+
+                    trip_fuel = dict1[aircraft]["fuel_comsumption_rate"]
                     trip_time = current.cost
-                    time_related_cost = int(input("time related cost:"))
-                    fixed_cost = int(input("fixed cost:"))
+                    time_related_cost = dict1[aircraft]["time_cost"][time_cost_type]
+                    fixed_cost = dict1[aircraft]["fixed_cost"]
                     trip_cost = (cost_fuel*trip_fuel*trip_time+time_related_cost*trip_time+fixed_cost)*flights
                     print("total trip cost is",trip_cost)
 
-
-                goal_node.parent_index = current.parent_index
-                goal_node.cost = current.cost
                 break
 
             # Remove the item from the open set
@@ -418,3 +428,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
