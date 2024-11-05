@@ -30,12 +30,12 @@ The 3 scenario:
 
 2.  Scenario 2:
 
-   _ 1250 passengers travel within 1 month.
-   _ 5 flights maximum for one week
-   _ Time cost= High and Fuel Cost= 0.88 $/kg.
+   - 1250 passengers travel within 1 month.
+   - 5 flights maximum for one week
+   - Time cost= High and Fuel Cost= 0.88 $/kg.
 
 3.  Scenario 3:
 
-   _ 2500 passengers travel within 1 week.
-   _ 25 flights maximum for one week
-   _ Time cost= low and Fuel Cost= 0.95 $/kg.
+   - 2500 passengers travel within 1 week.
+   - 25 flights maximum for one week
+   - Time cost= low and Fuel Cost= 0.95 $/kg.
