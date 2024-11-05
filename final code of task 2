@@ -415,8 +415,8 @@ def main():
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
         
-        plt.plot(tc_x, tc_y, "oy") # plot the cost intensive area 1
-        plt.plot(fc_x, fc_y, "or") # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 1
+        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 2
         plt.plot(nc_x, nc_y,"or")  # plot the cost reduced area 3
 
         plt.grid(True) # plot the grid to the plot panel
