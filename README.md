@@ -2,9 +2,9 @@
 <!-- TABLE OF CONTENT -->
 <details open="open">
  <summary><h2 style="display: inline block">Table of Contents</h2></summary>
- <li><a herf="#Task 1">Task 1</a></li>
- <li><a herf="#Task 2">Task 2</a></li>
- <li><a herf="#Task 3">Task 3</a></li>
+ <li><a href="#Task 1">Task 1</a></li>
+ <li><a href="#Task 2">Task 2</a></li>
+ <li><a href="#Task 3">Task 3</a></li>
  </ol>
  </details>
   
