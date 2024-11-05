@@ -54,3 +54,5 @@ To find the minimum cost, we have to use to following formula:
 
 
 ## Task 2
+
+## Table of content
