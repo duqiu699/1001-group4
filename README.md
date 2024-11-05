@@ -1,14 +1,18 @@
-# 1001-group4 
+ <h3 align="center">1001-group4</h3>
+ 
 <!-- TABLE OF CONTENT -->
 <details open="open">
- <summary><h2 style="display: inline block">Table of Contents</h2></summary>
- <li><a href="##Task-1">Task 1</a></li>
- <li><a href="##Task-2">Task 2</a></li>
- <li><a href="##Task-3">Task 3</a></li>
- </ol>
- </details>
-  
-## Task 1
+ <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+ *[Introduction](#Introduction)
+ *[Task 1](#task-1)
+ *[Task 2](#task-2)
+ *[Task 3](#task-3)
+ *[Reflections](#Reflections)
+ *[Contacts](#contacts)
+ 
+#Introduction
+ 
+# Task 1
 
 In the following task, we will find an approciate aircraft model that achieve minimum cost for each scenario for the challenge assigned to our group.
 
