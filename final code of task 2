@@ -41,10 +41,11 @@ class AStarPlanner:
         self.motion = self.get_motion_model() # motion model for grid search expansion
         self.calc_obstacle_map(ox, oy)
 
-        self.fc_x = fc_x
-        self.fc_y = fc_y
+
         self.tc_x = tc_x
         self.tc_y = tc_y
+        self.fc_x = fc_x
+        self.fc_y = fc_y
         self.nc_x = nc_x
         self.nc_y = nc_y
         
@@ -402,7 +403,7 @@ def main():
 
     # set cost reduced area 3
     nc_x, nc_y = [], []
-    for i in range(0, 5):  #need to change this range
+    for i in range(44, 49):
         for j in range(-10, 60):
             nc_x.append(j)
             nc_y.append(i)
@@ -414,8 +415,8 @@ def main():
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
         
-        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
-        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "oy") # plot the cost intensive area 1
+        plt.plot(fc_x, fc_y, "or") # plot the cost intensive area 2
         plt.plot(nc_x, nc_y,"or")  # plot the cost reduced area 3
 
         plt.grid(True) # plot the grid to the plot panel
