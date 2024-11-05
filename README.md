@@ -20,7 +20,7 @@ By editing the python programme, we can find the shortest way:
 To find the minimum cost, we have to use to following formula:
 
 
-The 3 scenario:
+## The 3 scenario:
 
 1.  Scenario 1:
     - 3000 passengers travel within 1 week.
@@ -36,3 +36,8 @@ The 3 scenario:
     - 2500 passengers travel within 1 week.
     - 25 flights maximum for one week
     - Time cost= low and Fuel Cost= 0.95 $/kg.
+
+## Conclusion:
+For scenario 1,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
+For scenario 2,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
+For scenario 3,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
