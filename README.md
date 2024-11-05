@@ -24,9 +24,9 @@ The 3 scenario:
 
 1.  Scenario 1:
 
-   _ 3000 passengers travel within 1 week.
-   _ 12 flights maximum for one week
-   _ Time cost= Medium and Fuel Cost= 0.76 $/kg.
+   - 3000 passengers travel within 1 week.
+   - 12 flights maximum for one week
+   - Time cost= Medium and Fuel Cost= 0.76 $/kg.
 
 2.  Scenario 2:
 
