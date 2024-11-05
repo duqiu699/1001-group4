@@ -9,3 +9,9 @@ The aircraft type we have:
 1. A321neo
 2. A330-900neo
 3. A350-900
+
+First, the obstacle set for our group:
+
+
+
+By editing the python programme, we can find the shortest way:
