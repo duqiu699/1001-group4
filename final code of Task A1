@@ -429,8 +429,8 @@ def main():
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
         
-        plt.plot(tc_x, tc_y, "oy") # plot the cost intensive area 1
-        plt.plot(fc_x, fc_y, "or") # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 1
+        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 2
 
         plt.plot(cp1x, cp1y, "ok")  # plot the first drop-off point
         plt.plot(cp2x, cp2y, "ok")  # plot the second drop-off point
