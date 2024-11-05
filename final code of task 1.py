@@ -22,7 +22,7 @@ show_animation = True
 
 class AStarPlanner:
 
-    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y,nc_x,nc_y):
+    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y):
         """
         Initialize grid map for a star planning
 
@@ -45,13 +45,10 @@ class AStarPlanner:
         self.fc_y = fc_y
         self.tc_x = tc_x
         self.tc_y = tc_y
-        self.nc_x = nc_x
-        self.nc_y = nc_y
         
 
         self.Delta_C1 = 0.3 # cost intensive area 1 modifier
         self.Delta_C2 = 0.15 # cost intensive area 2 modifier
-        self.Delta_C3 = 0 #jet stream
 
         self.costPerGrid = 1 
 
@@ -151,7 +148,7 @@ class AStarPlanner:
                     else:    #if flights<=maximum_flights, calculate the total cost
                      
                         trip_fuel = dict1[aircraft]["fuel_comsumption_rate"]     #fetch the data from the dictionary
-                        trip_time = current.cost
+                        trip_time = goal_node.cost
                         time_related_cost = dict1[aircraft]["time_cost"][time_cost_type]
                         fixed_cost = dict1[aircraft]["fixed_cost"]
                         trip_cost = (cost_fuel*trip_fuel*trip_time+time_related_cost*trip_time+fixed_cost)*flights
@@ -186,12 +183,7 @@ class AStarPlanner:
                         # print("cost intensive area!!")
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
                     # print()
-                
-                ## add less cost in cost intensive area 3
-                if self.calc_grid_position(node.x, self.min_x) in self.nc_x:
-                    if self.calc_grid_position(node.y, self.min_y) in self.nc_y:
-                        # print("cost intensive area!!")
-                        node.cost = node.cost + self.Delta_C3 * self.motion[i][2]
+
 
                 n_id = self.calc_grid_index(node)
 
@@ -400,12 +392,6 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
-    # set cost reduced area 3
-    nc_x, nc_y = [], []
-    for i in range(10, 15):
-        for j in range(-10, 60):
-            nc_x.append(j)
-            nc_y.append(i)
 
 
     if show_animation:  # pragma: no cover
@@ -415,12 +401,12 @@ def main():
         
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
-        plt.plot(nc_x, nc_y,"or")  # plot the cost reduced area 3
+
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
 
-    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y,nc_x,nc_y)
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
 
     if show_animation:  # pragma: no cover
