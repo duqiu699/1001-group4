@@ -6,7 +6,7 @@
  <li><a herf="#Task 2">Text 2</a></li>
  <li><a herf="#Task 3">Text 3</a></li>
  </ol>
- </a>details>
+ </details>
   
 ## Task 1
 
