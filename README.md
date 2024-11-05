@@ -1,4 +1,4 @@
- <h3 align="center">1001-group4</h3>
+ <h2 align="center">1001-group4</h2>
  
 <!-- TABLE OF CONTENT -->
 <details open="open">
@@ -10,7 +10,7 @@
  *[Reflections](#Reflections)
  *[Contacts](#contacts)
  
-#Introduction
+# Introduction
  
 # Task 1
 
