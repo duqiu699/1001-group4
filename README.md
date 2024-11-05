@@ -22,8 +22,20 @@ To find the minimum cost, we have to use to following formula:
 
 The 3 scenario:
 
-1.Scenario 1:
+1.  Scenario 1:
 
    1. 3000 passengers travel within 1 week.
    2. 12 flights maximum for one week
    3. Time cost= Medium and Fuel Cost= 0.76 $/kg.
+
+2.  Scenario 2:
+
+   1. 1250 passengers travel within 1 month.
+   2. 5 flights maximum for one week
+   3. Time cost= High and Fuel Cost= 0.88 $/kg.
+
+3.  Scenario 3:
+
+   1. 2500 passengers travel within 1 week.
+   2. 25 flights maximum for one week
+   3. Time cost= low and Fuel Cost= 0.95 $/kg.
