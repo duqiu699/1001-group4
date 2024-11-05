@@ -41,11 +41,11 @@ class AStarPlanner:
         self.motion = self.get_motion_model() # motion model for grid search expansion
         self.calc_obstacle_map(ox, oy)
 
-        self.fc_x = fc_x
-        self.fc_y = fc_y
         self.tc_x = tc_x
         self.tc_y = tc_y
-        
+        self.fc_x = fc_x
+        self.fc_y = fc_y
+
 
         self.Delta_C1 = 0.3 # cost intensive area 1 modifier
         self.Delta_C2 = 0.15 # cost intensive area 2 modifier
@@ -429,8 +429,8 @@ def main():
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
         
-        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
-        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "oy") # plot the cost intensive area 1
+        plt.plot(fc_x, fc_y, "or") # plot the cost intensive area 2
 
         plt.plot(cp1x, cp1y, "ok")  # plot the first drop-off point
         plt.plot(cp2x, cp2y, "ok")  # plot the second drop-off point
