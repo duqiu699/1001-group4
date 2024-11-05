@@ -1,15 +1,18 @@
+<p align="center">
  <h2 align="center">1001-group4</h2>
  
-<!-- TABLE OF CONTENT -->
+<!-- TABLE OF CONTENTS -->
 <details open="open">
- <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
- *[Introduction](#Introduction)
- *[Task 1](#task-1)
- *[Task 2](#task-2)
- *[Task 3](#task-3)
- *[Reflections](#Reflections)
- *[Contacts](#contacts)
- 
+  <summary><h2 style="display: inline-block;">Table of Contents</h2></summary>
+  <ul>
+    <li><a href="#Introduction">Introduction</a></li>
+    <li><a href="#task-1">Task 1</a></li>
+    <li><a href="#task-2">Task 2</a></li>
+    <li><a href="#task-3">Task 3</a></li>
+    <li><a href="#Reflections">Reflections</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+  </ul>
+</details>
 # Introduction
  
 # Task 1
