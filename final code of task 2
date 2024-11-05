@@ -402,7 +402,7 @@ def main():
 
     # set cost reduced area 3
     nc_x, nc_y = [], []
-    for i in range(0, 5):
+    for i in range(0, 5):  #need to change this range
         for j in range(-10, 60):
             nc_x.append(j)
             nc_y.append(i)
