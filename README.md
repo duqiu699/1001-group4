@@ -31,7 +31,7 @@ First, the obstacle set for our group:
 
 
 By editing the python programme, we can find the shortest way:
-
+![IMAGE ALT TEXT HERE](https://i.postimg.cc/kXpzXq2x/image.png)
 
 
 To find the minimum cost, we have to use to following formula:
