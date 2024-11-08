@@ -62,6 +62,15 @@ To find the minimum cost, we have to use to following formula:
 
 ## Task 2
 
+  In the following task, we are going to design a new cost area that can reduce the cost of the route.
+
+  ### Jetstream
+   A jet stream is a fast-flowing, narrow air current found in the atmosphere of some planets, including Earth. On Earth, jet streams are located near the altitude of the tropopause and are westerly winds (flowing west to east). Their paths typically have a meandering shape and can be thousands of kilometers long, a few hundred kilometers wide, and a few kilometers deep.
+
+  ### Background
+
+  By using the same obstacle set and scenario 1 in task 1, we are going to find the best place to set our minus-cost-area(jetstream) for this test, while the cost in jetstream area can be reduced by 5%. The area of jetstream will span across the map laterally and span 5-unit length vertically.
+  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/FRGmT8DD/image.png)
 ## Task 3
 
 ## A1
