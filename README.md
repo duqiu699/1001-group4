@@ -103,6 +103,13 @@ To find the minimum cost, we have to use to following formula:
   - All checkpoint need to be reached before arriving at the destination.
 
 ## Task A2
+  In the following task, the mission and the environment keep changing for each environment.
+  ### Situation
+   - The fuel-consuming area (fixed 40x40) remains and generate it randomly.
+   - No diagonal movement, change parameter and object travel within one grid size.
+   - Generate obstacles randomly with reasonable density.
+   - Starting and Ending point are generated randomly (>= 40-unit in between)
+   - Fuel-consuming area won't cover the obstacles and no obstacles should be generate at/near start and end point.
 
 ## Task A3
 
