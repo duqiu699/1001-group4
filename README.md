@@ -96,15 +96,15 @@ To find the minimum cost, we have to use to following formula:
 
   ### Our calculation
   
-## A1
+## Task A1
   In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
   ### Situation
   - One checkpoint should be added in cost intensive area
   - All checkpoint need to be reached before arriving at the destination.
 
-## A2
+## Task A2
 
-## A3
+## Task A3
 
 ## Reflection
 
