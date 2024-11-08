@@ -14,7 +14,7 @@
   </ul>
 </details>
 # Introduction
- 
+ For airlines, the most important thing is profitability. Therefore, they are committed to using various methods to enhance the benefits of their routes. This project aims to identify corresponding methods that can improve route profitability through different tasks.
 # Task 1
 
 In the following task, we will find an approciate aircraft model that achieve minimum cost for each scenario for the challenge assigned to our group.
@@ -27,7 +27,7 @@ The aircraft type we have:
 3. A350-900
 
 First, the obstacle set for our group:
-
+![IMAGE ALT TEXT HERE](https://i.postimg.cc/Hx1CWHPS/obstacle1.png)
 
 
 By editing the python programme, we can find the shortest way:
