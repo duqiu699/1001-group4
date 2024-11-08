@@ -35,7 +35,7 @@ By editing the python programme, we can find the shortest way:
 
 
 To find the minimum cost, we have to use to following formula:
-
+![IMAGE ALT TEXT HERE](https://i.postimg.cc/0QnHgsgK/image.png)
 
  The 3 scenario:
 
