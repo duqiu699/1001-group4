@@ -9,6 +9,9 @@
     <li><a href="#task-1">Task 1</a></li>
     <li><a href="#task-2">Task 2</a></li>
     <li><a href="#task-3">Task 3</a></li>
+    <li><a href="#task-A1">Task A1</a></li>
+    <li><a href="#task-A2">Task A2</a></li>
+    <li><a href="#task-A3">Task A3</a></li>
     <li><a href="#Reflections">Reflections</a></li>
     <li><a href="#contacts">Contacts</a></li>
   </ul>
