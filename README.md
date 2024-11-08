@@ -75,12 +75,42 @@ To find the minimum cost, we have to use to following formula:
 
   By editing programme, we can find the best place of Jetstream:
     ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2MwFYmf/image.png)
-## Task 3
 
+    
+  ### Conclusion
+  After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
+## Task 3
+  In the following task, we are going to design a new aircraft by finding out its parameters based on the restrictions.
+
+  ### Situation
+   - Aircraft should be fit Scenario 1 in task 1.
+   - Only consider cruise time.
+   - Passenger capacity.(min 100 to max 450)
+   - Each 50 passenger increase time cost by $2/min.(Base with $12)
+   - Base with Twin-engine aircraft, if capacity>=300, must use 4-engine aircraft.
+   - Fixed cost is 2000 for Twin-engine aircraft, 2500 for 4-engine aircraft.
+   - Each engine consumes fuel at 20kg/min.
+
+  ### Our calculation
+  
 ## A1
+  In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
+  ### Situation
+  - One checkpoint should be added in cost intensive area
+  - All checkpoint need to be reached before arriving at the destination.
 
 ## A2
 
 ## A3
+
+## Reflection
+
+  ### Lee Ching (24028115D)
+  
+  ### Song Yujie (24103111D)
+  
+  ### Kao Ching Yiu (24083458D)
+  
+  ### Ng Chi Hin (24083458D)
 
 ## Table of content
