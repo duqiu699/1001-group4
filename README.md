@@ -62,4 +62,12 @@ To find the minimum cost, we have to use to following formula:
 
 ## Task 2
 
+## Task 3
+
+## A1
+
+## A2
+
+## A3
+
 ## Table of content
