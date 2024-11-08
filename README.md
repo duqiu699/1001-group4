@@ -74,7 +74,7 @@ To find the minimum cost, we have to use to following formula:
   https://svs.gsfc.nasa.gov/3864
 
   By editing programme, we can find the best place of Jetstream:
-    ![IMAGE ALT TEXT HERE](https://i.postimg.cc/FRGmT8DD/image.png)
+    ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2MwFYmf/image.png)
 ## Task 3
 
 ## A1
