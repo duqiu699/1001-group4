@@ -71,6 +71,7 @@ To find the minimum cost, we have to use to following formula:
 
   By using the same obstacle set and scenario 1 in task 1, we are going to find the best place to set our minus-cost-area(jetstream) for this test, while the cost in jetstream area can be reduced by 5%. The area of jetstream will span across the map laterally and span 5-unit length vertically.
   ![IMAGE ALT TEXT HERE](https://i.postimg.cc/FRGmT8DD/image.png)
+  https://svs.gsfc.nasa.gov/3864
 ## Task 3
 
 ## A1
