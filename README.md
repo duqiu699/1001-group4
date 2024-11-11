@@ -58,7 +58,7 @@ To find the minimum cost, we have to use to following formula:
     - Time cost= low and Fuel Cost= 0.95 $/kg.
   
 ### Coding
-
+[1code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
 ### Conclusion:
  * For scenario 1,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
  * For scenario 2,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
