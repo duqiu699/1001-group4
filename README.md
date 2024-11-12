@@ -128,4 +128,6 @@ To find the minimum cost, we have to use to following formula:
   
   ### Ng Chi Hin (24083458D)
 
+  ### Yang Yuqi (24106431D)
+
 ## Table of content
