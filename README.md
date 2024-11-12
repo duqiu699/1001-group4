@@ -62,7 +62,7 @@ To find the minimum cost, we have to use to following formula:
 ### Coding
 [1code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
 
-[](https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif)
+![IMAGE ALT TEXT HERE](https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif)
 
 ### Conclusion:
  * For scenario 1,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
