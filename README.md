@@ -114,6 +114,8 @@ To find the minimum cost, we have to use to following formula:
 
   ### Our calculation
   ![imade](https://i.postimg.cc/fyJxKmKG/20241112002252.jpg)
+  the airbus program
+  ![image](https://i.postimg.cc/tRN7g237/2024-11-12-122418.png)
 ## Task A1
   In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
   ### Situation
@@ -130,7 +132,7 @@ To find the minimum cost, we have to use to following formula:
    - Fuel-consuming area won't cover the obstacles and no obstacles should be generate at/near start and end point.
 
 ## Task A3
-[caculation](https://photos.google.com/photo/AF1QipMHEdMlFcsW6g2iotvzSC0dNy7YPshc2qlk_YNb)
+
 ## Reflection
 
   ### Lee Ching (24028115D)
