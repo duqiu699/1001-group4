@@ -72,7 +72,7 @@ Secondly, calculate trip cost
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif)
 
 ---calculate the total cost if the flights number is eligible.
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif
+![IMAGE ALT TEXT HERE](https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif)
 
 ### Conclusion:
  * For scenario 1,the aircraft with the lowest operation cost is <ins></ins>, it can conduct the amount of flight is <ins></ins>.
