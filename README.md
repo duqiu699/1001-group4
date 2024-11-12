@@ -113,7 +113,7 @@ To find the minimum cost, we have to use to following formula:
    - Each engine consumes fuel at 20kg/min.
 
   ### Our calculation
-  (https://photos.google.com/photo/AF1QipMHEdMlFcsW6g2iotvzSC0dNy7YPshc2qlk_YNb)
+  ![imade](https://i.postimg.cc/fyJxKmKG/20241112002252.jpg)
 ## Task A1
   In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
   ### Situation
