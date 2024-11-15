@@ -32,15 +32,15 @@ The aircraft type we have:
 3. A350-900
 
 First, the obstacle set for our group:
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/Hx1CWHPS/obstacle1.png)
+![](https://i.postimg.cc/Hx1CWHPS/obstacle1.png)
 
 
 By editing the python programme, we can find the shortest way:
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/kXpzXq2x/image.png)
+![](https://i.postimg.cc/kXpzXq2x/image.png)
 
 
 To find the minimum cost, we have to use to following formula:
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/0QnHgsgK/image.png)
+![](https://i.postimg.cc/0QnHgsgK/image.png)
 
  The 3 scenario:
 
@@ -63,8 +63,8 @@ To find the minimum cost, we have to use to following formula:
 [1code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif)
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/Zq11mhYF/temp-Imagee-GJYSE.avif)
+![](https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif)
+![](https://i.postimg.cc/Zq11mhYF/temp-Imagee-GJYSE.avif)
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2G6hSH0/temp-Imageg-Rb-TK0.avif)
 
 #### Secondly, calculate trip cost
@@ -149,7 +149,21 @@ To find the minimum cost, we have to use to following formula:
   ### Coding
   #### Firstly, remain only the fuel-consuming area and generate it randomly with a fixed area
   ![](https://i.postimg.cc/2SZSMCQh/temp-Image-MIO5s-V.avif)
-  
+
+  #### Secondly, change robot radius so that the object could travel within one grid size
+  ![](https://i.postimg.cc/BvhZ1t4W/temp-Image-Fmn0x-M.avif)
+
+  #### Thirdly, create obstacles
+  Use a loop to create totally 1200 obstacles that are not near the start and end points
+  ![](https://i.postimg.cc/Z5RM5q7v/temp-Image-Wo-Rys-H.avif)
+
+  #### Next, create destination and starting points randomly with at least a 40-unit distance in-between
+  Use another loop to generate start and end points. But if the distance between them are not meet the requirement, delete them and create a new one
+  ![](https://i.postimg.cc/L81jDKh0/temp-Image8uv96t.avif)
+
+  #### To make sure plotting of the fuel-consuming area are not cover the obstacles, modify the code like this.
+  First generate cost intensive area, then plot the start and end position
+  ![](https://i.postimg.cc/QdQHVXFs/temp-Imagesf-FIUu.avif)
 
 ## Task A3
 
