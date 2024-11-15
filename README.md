@@ -136,6 +136,14 @@ To find the minimum cost, we have to use to following formula:
   - All checkpoint need to be reached before arriving at the destination.
 
   ### Coding
+  #### Firstly, add one checkpoint for each cost intensive area
+  cp1x and cp1y are for checkpoint1, cp2x and cp2y are for checkpoint2
+  we can also adjust the checkpoint by change the number
+  ![](https://i.postimg.cc/rpq32J6c/temp-Imagew-Hs-J3-C.avif)
+
+  #### Secondly, reach all checkpoints before arriving at the destination
+  Because of the aircraft need to each all checkpoints before arriving at the destination, we can divide the path into three parts, calculate the time spent on each part and add it together to get the total time.
+  ![](https://i.postimg.cc/ZY6Qn2TZ/temp-Image-Fx-Arqa.avif)
 
 ## Task A2
   In the following task, the mission and the environment keep changing for each environment.
