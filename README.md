@@ -97,6 +97,7 @@ To find the minimum cost, we have to use to following formula:
   By editing programme, we can find the best place of Jetstream:
     ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2MwFYmf/image.png)
 
+  ### Coding
     
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
@@ -122,6 +123,8 @@ To find the minimum cost, we have to use to following formula:
   - One checkpoint should be added in cost intensive area
   - All checkpoint need to be reached before arriving at the destination.
 
+    ### Coding
+
 ## Task A2
   In the following task, the mission and the environment keep changing for each environment.
   ### Situation
@@ -130,6 +133,8 @@ To find the minimum cost, we have to use to following formula:
    - Generate obstacles randomly with reasonable density.
    - Starting and Ending point are generated randomly (>= 40-unit in between)
    - Fuel-consuming area won't cover the obstacles and no obstacles should be generate at/near start and end point.
+
+     ### Coding
 
 ## Task A3
 
