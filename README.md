@@ -98,7 +98,15 @@ To find the minimum cost, we have to use to following formula:
     ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2MwFYmf/image.png)
 
   ### Coding
-    
+  ####Firstly，add a third code to modify the cost
+  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/GpQ7XQYT/temp-Image1-TTOAy.avif) 
+  ####Secondly,add less cost in jet stream by mimicing the code of cost intensive area
+  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/PNsQXpYk/temp-Imagevmv-Ysq.avif)
+  ####Thirdly,set cost reduced area 3. We can change the number in the second line of code to change the position of jet stream.
+  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/jSCPp4GJ/temp-Image-Yr-BWxe.avif)
+  ####Lastly,plot the cost reduced area 3
+  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/k4w5MkSM/temp-Imagenf-Sy-XK.avif)
+  
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
 ## Task 3
