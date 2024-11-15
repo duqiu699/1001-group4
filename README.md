@@ -160,6 +160,7 @@ To find the minimum cost, we have to use to following formula:
   #### Next, create destination and starting points randomly with at least a 40-unit distance in-between
   Use another loop to generate start and end points. But if the distance between them are not meet the requirement, delete them
   and create a new one
+  
   ![](https://i.postimg.cc/L81jDKh0/temp-Image8uv96t.avif)
 
   #### To make sure plotting of the fuel-consuming area are not cover the obstacles, modify the code like this.
