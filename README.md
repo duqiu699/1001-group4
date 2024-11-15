@@ -148,7 +148,7 @@ To find the minimum cost, we have to use to following formula:
 
   ### Coding
   #### Firstly, remain only the fuel-consuming area and generate it randomly with a fixed area
-  ![](https://i.postimg.cc/2SZSMCQh/temp-Image-MIO5s-V.avif)
+  ![](https://i.postimg.cc/NjnBgS4Y/temp-Image8k-KWg-R.avif)
 
   #### Secondly, change robot radius so that the object could travel within one grid size
   ![](https://i.postimg.cc/BvhZ1t4W/temp-Image-Fmn0x-M.avif)
