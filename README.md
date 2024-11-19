@@ -65,7 +65,7 @@ To find the minimum cost, we have to use to following formula:
 [1code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
-<img scr"![](https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif)", width="100px">
+![](https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif)
 ![](https://i.postimg.cc/Zq11mhYF/temp-Imagee-GJYSE.avif)
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2G6hSH0/temp-Imageg-Rb-TK0.avif)
 
