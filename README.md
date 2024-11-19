@@ -207,5 +207,3 @@ To find the minimum cost, we have to use to following formula:
   ### Qaiser Katongole Mbidde (24111001D)
 
   ### Hui Long Wai (24084234D)
-
-## Table of content
