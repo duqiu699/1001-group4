@@ -386,14 +386,14 @@ def main():
     #     oy.append(30.0)
 
 
-    # set cost intesive area 1
+    # set cost intensive area 1
     tc_x, tc_y = [], []
     for i in range(35, 50):
         for j in range(35, 50):
             tc_x.append(i)
             tc_y.append(j)
     
-    # set cost intesive area 2
+    # set cost intensive area 2
     fc_x, fc_y = [], []
     for i in range(25, 30):
         for j in range(0, 20):
