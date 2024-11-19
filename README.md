@@ -193,7 +193,7 @@ To find the minimum cost, we have to use to following formula:
 
 ## Task A3
 
-## Reflection
+## Reflections
 
   ### Lee Ching (24028115D)
   
