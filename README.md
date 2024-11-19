@@ -152,7 +152,7 @@ To find the minimum cost, we have to use to following formula:
   the checkpoints shows before the path display
   ![](https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif)
   ![](https://i.postimg.cc/vHB5kx2j/temp-Image-Jk6b-M4.avif)
-  comment: The correct path can be displayed, but there are two unrelated lines, which is a problem with the code that we can't solve for the moment
+  Comment: The correct path can be displayed, but there are two unrelated lines, which is a problem with the code that we can't solve for the moment.
   
 
 ## Task A2
