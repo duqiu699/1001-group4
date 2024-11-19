@@ -327,7 +327,7 @@ def main():
     #     ox.append(i)
     #     oy.append(30.0)
 
-    # set cost intesive area 2
+    # set cost intensive area 2
     num1 = random.randint(-10,20)
     num2 = random.randint(-10,20)
     fc_x, fc_y = [], []
@@ -337,14 +337,15 @@ def main():
             fc_y.append(j)
             
             
-    #create Oberstacles
+    #create Obstacles
     Obstacles_number = 0
 
-    while Obstacles_number < 1200:
+    while Obstacles_number < 1200:  #create totally 1200 obstacles
 
-        random_num1 = random.randint(-10,60)
+        random_num1 = random.randint(-10,60)  #generate randomly
         random_num2 = random.randint(-10,60)
 
+        #if obstacle nears the start and end point, delete it and start a new loop
         if random_num1>=sx-1 and random_num1<=sx+1 and random_num2>=sy-1 and random_num2<=sy+1:
             continue
         elif random_num1>=gx-1 and random_num1<=gx+1 and random_num2>=gy-1 and random_num2<=gy+1:
@@ -361,10 +362,6 @@ def main():
         plt.plot(ox, oy, ".k") # plot the obstacle
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
-        
-
-
-
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
