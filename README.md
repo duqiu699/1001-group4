@@ -60,6 +60,7 @@ To find the minimum cost, we have to use to following formula:
     - Time cost= low and Fuel Cost= 0.95 $/kg.
   
 ### Manuel Calculation
+![](https://i.postimg.cc/T2ZYdypk/IMG-2060.jpg)
   
 ### Coding
 [1code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
