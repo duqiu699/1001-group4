@@ -137,7 +137,7 @@ To find the minimum cost, we have to use to following formula:
 
   ### Coding
   #### Firstly, add one checkpoint for each cost intensive area
-  cp1x and cp1y are for checkpoint1, cp2x and cp2y are for checkpoint2
+  <b>cp1x</b> and <b>cp1y</b> are for checkpoint1, cp2x and cp2y are for checkpoint2
   we can also adjust the checkpoint by change the number
   ![](https://i.postimg.cc/rpq32J6c/temp-Imagew-Hs-J3-C.avif)
 
