@@ -91,10 +91,11 @@ class AStarPlanner:
         rx3, ry3 = self.plan_to_goal(cp2x, cp2y, gx, gy)
 
         # Combine paths
-        rx = rx1 + rx2[1:] + rx3[1:] 
+        rx = rx1 + rx2[1:] + rx3[1:]
         ry = ry1 + ry2[1:] + ry3[1:]
 
         return rx, ry
+        
     def plan_to_goal(self, sx, sy, gx, gy):
         # Plans path from (sx, sy) to (gx, gy)
 
@@ -178,7 +179,9 @@ class AStarPlanner:
 
                         #calculate aircraft cost
                         print(f"total cost of operating {aircraft} in this scenario: {sum(dict_cost[aircraft])}")
+
                 print()
+            
                 break
 
             # Remove the item from the open set
@@ -226,10 +229,10 @@ class AStarPlanner:
                         # This path is the best until now. record it
                         open_set[n_id] = node
 
-                        rx, ry = self.calc_final_path(goal_node, closed_set)
+        rx, ry = self.calc_final_path(goal_node, closed_set)
         # print(len(closed_set))
         # print(len(open_set))
-
+        
         return rx, ry
 
     def calc_final_path(self, goal_node, closed_set):
@@ -429,8 +432,8 @@ def main():
         plt.plot(sx, sy, "og") # plot the start position 
         plt.plot(gx, gy, "xb") # plot the end position
         
-        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 1
-        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "oy") # plot the cost intensive area 1
+        plt.plot(fc_x, fc_y, "or") # plot the cost intensive area 2
 
         plt.plot(cp1x, cp1y, "ok")  # plot the first drop-off point
         plt.plot(cp2x, cp2y, "ok")  # plot the second drop-off point
@@ -440,13 +443,11 @@ def main():
 
     a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy,cp1x, cp1y, cp2x, cp2y)
-
+    
     if show_animation:  # pragma: no cover
         plt.plot(rx, ry, "-r") # show the route 
         plt.pause(0.001) # pause 0.001 seconds
         plt.show() # show the plot
-
-        
 
     
 passengers = int(input("Enter number of passengers: "))
