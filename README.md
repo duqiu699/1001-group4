@@ -202,4 +202,10 @@ To find the minimum cost, we have to use to following formula:
 
   ### Yang Yuqi (24106431D)
 
+  ### Lam Ho Lam (24078041D)
+
+  ### Qaiser Katongole Mbidde (24111001D)
+
+  ### Hui Long Wai (24084234D)
+
 ## Table of content
