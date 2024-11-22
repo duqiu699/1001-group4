@@ -204,6 +204,8 @@ To find the minimum cost, we have to use to following formula:
 
   ### Yang Yuqi (24106431D)
 
+I have learned a lot in this group project. Firstly, this project has improved my programming ability. The project is a completely new subject for me, and I have never encountered it before. After careful reading, I found that this project is actually very interesting. For example, in task2, we need to design a time reduction area by ourselves. Since I have learned a little programming knowledge, this project has also been a good exercise for me to apply what I have learned to real research projects. Although there were many difficulties in the process, such as working hard to write the code but finding errors in running, after continuous modification, with the help of teachers and AI, the code of the task1-5 was successfully written, promoting the progress of our project. Besides, because it was a group project, I also got chance to know students from different places and had exchanges with them. I would like to thank the teachers of AAE1001 for giving us this opportunity and all the members of our group for their efforts in this group project.
+
   ### Lam Ho Lam (24078041D)
 
   ### Qaiser Katongole Mbidde (24111001D)
