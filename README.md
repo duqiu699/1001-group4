@@ -195,6 +195,8 @@ To find the minimum cost, we have to use to following formula:
 ## Reflections
 
   ### Lee Ching (24028115D)
+
+  After completing this group project for the 1001 course, I learned a lot of things. First, I gained experience in teamwork and communication. I dedicated to communicating with classmates working on different parts of the project, discussing the content and design of our Github repository and powerpoint presentation. Some groupmates don't know what things they need to do, and I made an effort to explain what needed to be done. This allowed me to meet several new classmates. Secondly, I learned how to use Github. At first, I found that Github is quite eomplicated and didn't know how to use it. However, after becoming familiar with it, I discover that Github is a very convenient platform for group reports. I was responsible for designing the outline of our group's Github, allowing groupmates to directly add their content. At the same time, I also learned how to use Python. Although I had previously studied programming in other languages, getting the hang of a new language in a short time was still quite challenging. However, with the help of AL, I managed to learn quite a bit of Python syntax, which enabled me to complete the roadmap for Task 1. Overall, this group project was a great learning opportunity for me and provided me with a clear understanding of working on group projects.
   
   ### Song Yujie (24103111D)
   
