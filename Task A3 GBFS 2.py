@@ -1,3 +1,7 @@
+"""
+GBFS
+author: Ilshat25
+"""
 import math
 import matplotlib.pyplot as plt
 
