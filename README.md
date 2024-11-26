@@ -18,6 +18,7 @@
 
 # Introduction
  For airlines, the most important thing is profitability. Therefore, they are committed to using various methods to enhance the benefits of their routes. This project aims to identify corresponding methods that can improve route profitability through different tasks.
+
  
 ## Task 1
 
@@ -93,6 +94,7 @@ To find the minimum cost, we have to use to following formula:
  * For scenario 3,the aircraft with the lowest operation cost is <ins>A321neo</ins>, it can conduct the amount of flight is <ins>$107117</ins>.
 
 
+
 ## Task 2
 
   In the following task, we are going to design a new cost area that can reduce the cost of the route.
@@ -132,6 +134,8 @@ To find the minimum cost, we have to use to following formula:
   
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
+
+  
 ## Task 3
   In the following task, we are going to design a new aircraft by finding out its parameters based on the restrictions.
 
@@ -151,6 +155,7 @@ To find the minimum cost, we have to use to following formula:
   the airbus program
   
   <img src="https://i.postimg.cc/tRN7g237/2024-11-12-122418.png" alt="Obstacle" width="500"/>
+  
 
 ## Task A1
   In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
@@ -182,7 +187,9 @@ To find the minimum cost, we have to use to following formula:
   Comment: The correct path can be displayed, but there are two unrelated lines, which is a problem with the code that we can't solve for the moment.
   
 
+
 ## Task A2
+
   In the following task, the mission and the environment keep changing for each environment.
   ### Situation
    - The fuel-consuming area (fixed 40x40) remains and generate it randomly.
@@ -222,6 +229,7 @@ To find the minimum cost, we have to use to following formula:
    <img src="https://i.postimg.cc/qRNxnhfW/temp-Image-Ijs-Bdt.avif" alt="Obstacle" width="500"/>
 
    <img src="https://i.postimg.cc/jjXFvJF5/temp-Imageg-ISu-Ke.avif" alt="Obstacle" width="500"/>
+
 
 ## Task A3
 
