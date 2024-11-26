@@ -90,10 +90,14 @@ To find the minimum cost, we have to use to following formula:
 
 ### Result
 
-### Conclusion:
-
 https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
 
+https://github.com/user-attachments/assets/3dc59ca3-10b9-4e96-a40c-324204c9e776
+
+https://github.com/user-attachments/assets/fb234249-172f-4827-be9c-880d9200b41e
+
+
+### Conclusion:
 
  * For scenario 1,the aircraft with the lowest operation cost is <ins>A330-900neo</ins>, it can conduct the amount of flight is <ins>$109128</ins>.
  * For scenario 2,the aircraft with the lowest operation cost is <ins>A350-900</ins>, it can conduct the amount of flight is <ins>$57568</ins>.
