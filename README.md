@@ -69,7 +69,7 @@ To find the minimum cost, we have to use to following formula:
   
 ### Coding
 
-<img src="https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201" alt="Obstacle" width="500"/>
+https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
 
