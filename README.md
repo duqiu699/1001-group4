@@ -145,11 +145,13 @@ To find the minimum cost, we have to use to following formula:
    - Each engine consumes fuel at 20kg/min.
 
   ### Our calculation
-  <img src="" alt="Obstacle" width="500"/>
-  ![imade](https://i.postimg.cc/fyJxKmKG/20241112002252.jpg)
+  
+  <img src="https://i.postimg.cc/fyJxKmKG/20241112002252.jpg" alt="Obstacle" width="500"/>
+
   the airbus program
-   <img src="" alt="Obstacle" width="500"/>
-  ![image](https://i.postimg.cc/tRN7g237/2024-11-12-122418.png)
+  
+  <img src="https://i.postimg.cc/tRN7g237/2024-11-12-122418.png" alt="Obstacle" width="500"/>
+
 ## Task A1
   In the following task, the aircraft will be a supply craft that must reach 2 drop-off points to drop supplies before heading to base.
   ### Situation
@@ -160,21 +162,23 @@ To find the minimum cost, we have to use to following formula:
   #### Firstly, add one checkpoint for each cost intensive area
   <ins>cp1x</ins> and <ins>cp1y</ins> are for checkpoint1, <ins>cp2x</ins> and <ins>cp2y</ins> are for checkpoint2
   we can also adjust the checkpoint by change the number
-   <img src="" alt="Obstacle" width="500"/>
-  ![](https://i.postimg.cc/rpq32J6c/temp-Imagew-Hs-J3-C.avif)
+  
+   <img src="https://i.postimg.cc/rpq32J6c/temp-Imagew-Hs-J3-C.avif" alt="Obstacle" width="500"/>
+
 
   #### Secondly, reach all checkpoints before arriving at the destination
   Because of the aircraft need to each all checkpoints before arriving at the destination, we can divide the path into three parts, calculate the time spent on each part and add it together to get the total time.
-   <img src="" alt="Obstacle" width="500"/>
-  ![](https://i.postimg.cc/ZY6Qn2TZ/temp-Image-Fx-Arqa.avif)
+  
+   <img src="https://i.postimg.cc/ZY6Qn2TZ/temp-Image-Fx-Arqa.avif" alt="Obstacle" width="500"/>
+
 
   ### Conclusion
   The finally path and output are in the following pictures.
   the checkpoints shows before the path display
-   <img src="" alt="Obstacle" width="500"/>
-  ![](https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif)
-   <img src="" alt="Obstacle" width="500"/>
-  ![](https://i.postimg.cc/vHB5kx2j/temp-Image-Jk6b-M4.avif)
+  
+   <img src="https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif" alt="Obstacle" width="500"/>
+
+   <img src="[https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif](https://i.postimg.cc/vHB5kx2j/temp-Image-Jk6b-M4.avif)" alt="Obstacle" width="500"/>
   Comment: The correct path can be displayed, but there are two unrelated lines, which is a problem with the code that we can't solve for the moment.
   
 
@@ -189,36 +193,35 @@ To find the minimum cost, we have to use to following formula:
 
   ### Coding
   #### Firstly, remain only the fuel-consuming area and generate it randomly with a fixed area
-  ![](https://i.postimg.cc/NjnBgS4Y/temp-Image8k-KWg-R.avif)
-   <img src="" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/NjnBgS4Y/temp-Image8k-KWg-R.avif" alt="Obstacle" width="500"/>
 
   #### Secondly, change robot radius so that the object could travel within one grid size
-  ![](https://i.postimg.cc/BvhZ1t4W/temp-Image-Fmn0x-M.avif)
-   <img src="" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/BvhZ1t4W/temp-Image-Fmn0x-M.avif" alt="Obstacle" width="500"/>
 
   #### Thirdly, create obstacles
   Use a loop to create totally 1200 obstacles that are not near the start and end points
-  ![](https://i.postimg.cc/Z5RM5q7v/temp-Image-Wo-Rys-H.avif)
-   <img src="" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/Z5RM5q7v/temp-Image-Wo-Rys-H.avif" alt="Obstacle" width="500"/>
 
   #### Next, create destination and starting points randomly with at least a 40-unit distance in-between
   Use another loop to generate start and end points. But if the distance between them are not meet the requirement, delete them
   and create a new one
   
-  ![](https://i.postimg.cc/L81jDKh0/temp-Image8uv96t.avif)
-   <img src="" alt="Obstacle" width="500"/>
+   <img src="https://i.postimg.cc/L81jDKh0/temp-Image8uv96t.avif" alt="Obstacle" width="500"/>
 
   #### To make sure plotting of the fuel-consuming area are not cover the obstacles, modify the code like this.
   First generate cost intensive area, then plot the start and end position
-  ![](https://i.postimg.cc/QdQHVXFs/temp-Imagesf-FIUu.avif)
-   <img src="" alt="Obstacle" width="500"/>
+  
+   <img src="https://i.postimg.cc/QdQHVXFs/temp-Imagesf-FIUu.avif" alt="Obstacle" width="500"/>
 
   ### Conclusion
   The final path is shown below, and we can also get total trip time in the terminal
-  ![](https://i.postimg.cc/qRNxnhfW/temp-Image-Ijs-Bdt.avif)
-   <img src="" alt="Obstacle" width="500"/>
-  ![](https://i.postimg.cc/jjXFvJF5/temp-Imageg-ISu-Ke.avif)
-   <img src="" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/qRNxnhfW/temp-Image-Ijs-Bdt.avif" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/jjXFvJF5/temp-Imageg-ISu-Ke.avif" alt="Obstacle" width="500"/>
 
 ## Task A3
 
