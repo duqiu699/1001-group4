@@ -92,7 +92,7 @@ Click to enter the code interface
 
 ### Result
 
-https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
+<img scr="https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db" alt="Obstacle" width="500"/>
 
 https://github.com/user-attachments/assets/3dc59ca3-10b9-4e96-a40c-324204c9e776
 
