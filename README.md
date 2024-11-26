@@ -18,8 +18,8 @@
 
 # Division of work:
 1. Task 1: Lee Ching(24028115D) Yang Yuqi(24106431D)
-2. Task 2: Yang Yuqi(24106431D) Kao Ching Yiu (24075232d)
-3. Task 3: Lee Ching(24028115D)
+2. Task 2: Yang Yuqi(24106431D) Kao Ching Yiu (24075232d) Song Yujie(24103111d)
+3. Task 3: Lee Ching(24028115D) Song Yujie(24103111d)
 4. Task A1: Yang Yuqi(24106431D)
 5. Task A2: Yang Yuqi(24106431D)
 6. Task A3: Qaiser Mbidde Katongole(24111001D)
