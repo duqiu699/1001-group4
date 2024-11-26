@@ -94,7 +94,7 @@ https://github.com/duqiu699/1001-group4/blob/main/Task%201
 
 https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
 
-https://github.com/user-attachments/assets/3dc59ca3-10b9-4e96-a40c-324204c9e776
+https://github.com/user-attachments/assets/c24caba6-9e87-43fe-ac11-70b394057fbc
 
 https://github.com/user-attachments/assets/fb234249-172f-4827-be9c-880d9200b41e
 
