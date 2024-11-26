@@ -67,7 +67,7 @@ To find the minimum cost, we have to use to following formula:
 
   
 ### Coding
-[Task 1 code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
+
 <img src="https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201" alt="Obstacle" width="500"/>
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
@@ -84,8 +84,8 @@ To find the minimum cost, we have to use to following formula:
 <img src="https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif" alt="Obstacle" width="500"/>
 
 ##### ---Calculate the total cost if the flights number is eligible.
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif)
-<img src="" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif" alt="Obstacle" width="500"/>
 
 ### Conclusion:
  * For scenario 1,the aircraft with the lowest operation cost is <ins>A330-900neo</ins>, it can conduct the amount of flight is <ins>$109128</ins>.
@@ -99,7 +99,8 @@ To find the minimum cost, we have to use to following formula:
 
   ### Jetstream
    A jet stream is a fast-flowing, narrow air current found in the atmosphere of some planets, including Earth. On Earth, jet streams are located near the altitude of the tropopause and are westerly winds (flowing west to east). Their paths typically have a meandering shape and can be thousands of kilometers long, a few hundred kilometers wide, and a few kilometers deep.
-   ![IMAGE ALT TEXT HERE](https://i.postimg.cc/FRGmT8DD/image.png)
+
+   <img src="https://i.postimg.cc/FRGmT8DD/image.png" alt="Obstacle" width="500"/>
   https://svs.gsfc.nasa.gov/3864
 
   ### Background
@@ -108,21 +109,26 @@ To find the minimum cost, we have to use to following formula:
   
 
   By editing programme, we can find the best place of Jetstream:
-    ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2MwFYmf/image.png)
+
+    <img src="https://i.postimg.cc/G2MwFYmf/image.png" alt="Obstacle" width="500"/>
 
   ### Coding
   #### Firstly，add a third code to modify the cost
-  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/GpQ7XQYT/temp-Image1-TTOAy.avif) 
+
+  <img src="https://i.postimg.cc/GpQ7XQYT/temp-Image1-TTOAy.avif" alt="Obstacle" width="500"/>
   
   #### Secondly, add less cost in jet stream by mimicing the code of cost intensive area
-  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/PNsQXpYk/temp-Imagevmv-Ysq.avif)
+
+  <img src="https://i.postimg.cc/PNsQXpYk/temp-Imagevmv-Ysq.avif" alt="Obstacle" width="500"/>
   
   #### Thirdly, set cost reduced area 3.
   We can change the number in the second line of code to change the position of jet stream.
-  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/jSCPp4GJ/temp-Image-Yr-BWxe.avif)
+
+  <img src="https://i.postimg.cc/jSCPp4GJ/temp-Image-Yr-BWxe.avif" alt="Obstacle" width="500"/>
   
   #### Lastly, plot the cost reduced area 3
-  ![IMAGE ALT TEXT HERE](https://i.postimg.cc/k4w5MkSM/temp-Imagenf-Sy-XK.avif)
+
+  <img src="https://i.postimg.cc/k4w5MkSM/temp-Imagenf-Sy-XK.avif" alt="Obstacle" width="500"/>
   
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
