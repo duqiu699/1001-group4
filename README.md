@@ -145,8 +145,7 @@ To find the minimum cost, we have to use to following formula:
    - Each engine consumes fuel at 20kg/min.
 
   ### Our calculation
-  
-  <img src="https://i.postimg.cc/fyJxKmKG/20241112002252.jpg" alt="Obstacle" width="500"/>
+  ![](https://i.postimg.cc/fyJxKmKG/20241112002252.jpg)
 
   the airbus program
   
