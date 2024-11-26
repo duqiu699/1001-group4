@@ -16,6 +16,15 @@
   </ul>
 </details>
 
+# Division of work:
+1. Task 1:
+2. Task 2:
+3. Task 3
+4. Task A1:
+5. Task A2:
+6. Task A3
+
+
 # Introduction
  For airlines, the most important thing is profitability. Therefore, they are committed to using various methods to enhance the benefits of their routes. This project aims to identify corresponding methods that can improve route profitability through different tasks.
 
