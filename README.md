@@ -22,7 +22,7 @@
 3. Task 3: Lee Ching(24028115D)
 4. Task A1: Kao Ching Yiu(24075232d) Yang Yuqi(24106431D)
 5. Task A2: Yang Yuqi(24106431D)
-6. Task A3:
+6. Task A3: Qaiser Mbidde Katongole(24111001D)
 7. Presentation slide: All of us
 
 
