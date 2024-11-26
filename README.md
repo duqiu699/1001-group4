@@ -31,7 +31,7 @@ The aircraft type we have:
 3. A350-900
 
 First, the obstacle set for our group:
-![](https://i.postimg.cc/Hx1CWHPS/obstacle1.png)
+<img src="https://i.postimg.cc/Hx1CWHPS/obstacle1.png" alt="Obstacle" width="300"/>
 
 
 By editing the python programme, we can find the shortest way:
