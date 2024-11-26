@@ -280,7 +280,7 @@ https://github.com/user-attachments/assets/228cbeb6-7baf-4892-82f3-329af438d6dc
 
    <img src="https://i.postimg.cc/prH35VQC/temp-Imagej-TUY0-P.avif" alt="Obstacle" width="500"/>
 
-   <img src="https://i.postimg.cc/pXk3yHmQ/temp-Image0v-SA7u.avif" alt="Obstacle" width="500"/>
+   <img src="https://i.postimg.cc/mr1nd18V/temp-Imagek-Np-M8-Q.avif" alt="Obstacle" width="500"/>
 
 
 ## Task A3
