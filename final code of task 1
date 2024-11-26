@@ -22,7 +22,7 @@ show_animation = True
 
 class AStarPlanner:
 
-    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y,nc_x,nc_y):
+    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y):
         """
         Initialize grid map for a star planning
 
@@ -45,13 +45,10 @@ class AStarPlanner:
         self.tc_y = tc_y
         self.fc_x = fc_x
         self.fc_y = fc_y
-        self.nc_x = nc_x
-        self.nc_y = nc_y
         
 
         self.Delta_C1 = 0.3 # cost intensive area 1 modifier
         self.Delta_C2 = 0.15 # cost intensive area 2 modifier
-        self.Delta_C3 = 0 #jet stream
 
         self.costPerGrid = 1 
 
@@ -131,9 +128,12 @@ class AStarPlanner:
                 flights = None
 
                 #use dictionary to encapsulate data of three types of aircraft
-                dict1 = {"A321":{"fuel_comsumption_rate":54,"passenger_capacity":200,"time_cost":{"low":10,"medium":15,"high":20},"fixed_cost":1800},
-                         "A330":{"fuel_comsumption_rate":84,"passenger_capacity":300,"time_cost":{"low":15,"medium":21,"high":27},"fixed_cost":2000},
-                         "A350":{"fuel_comsumption_rate":90,"passenger_capacity":350,"time_cost":{"low":20,"medium":27,"high":34},"fixed_cost":2500}}
+                dict1 = {"A321":{"fuel_comsumption_rate":54,"passenger_capacity":200,
+                                 "time_cost":{"low":10,"medium":15,"high":20},"fixed_cost":1800},
+                         "A330":{"fuel_comsumption_rate":84,"passenger_capacity":300,
+                                 "time_cost":{"low":15,"medium":21,"high":27},"fixed_cost":2000},
+                         "A350":{"fuel_comsumption_rate":90,"passenger_capacity":350,
+                                 "time_cost":{"low":20,"medium":27,"high":34},"fixed_cost":2500}}
                 
                 #for each aircraft, calculate the total cost
                 for aircraft in Aircrafts:
@@ -186,12 +186,6 @@ class AStarPlanner:
                         # print("cost intensive area!!")
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
                     # print()
-                
-                ## add less cost in cost intensive area 3
-                if self.calc_grid_position(node.x, self.min_x) in self.nc_x:
-                    if self.calc_grid_position(node.y, self.min_y) in self.nc_y:
-                        # print("cost intensive area!!")
-                        node.cost = node.cost + self.Delta_C3 * self.motion[i][2]
 
                 n_id = self.calc_grid_index(node)
 
@@ -354,7 +348,7 @@ def main():
     #     oy.append(60.0 - i)
 
 
-    # set obstacle positions for group 9
+    # set obstacle positions for group 4
     ox, oy = [], []
     for i in range(-10, 60): # draw the button border 
         ox.append(i)
@@ -372,11 +366,9 @@ def main():
     for i in range(0,60): # draw the free border
         ox.append((i-30)/(-3))
         oy.append(i)
-
     for i in range(-10,30):
         ox.append(i)
         oy.append(-15/40*i+90/8+45)
-    
     for i in range(10,50):
         ox.append(i)
         oy.append(-1/4*i+32.5)
@@ -400,14 +392,6 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
-    # set cost reduced area 3
-    nc_x, nc_y = [], []
-    for i in range(10, 15):
-        for j in range(-10, 60):
-            nc_x.append(j)
-            nc_y.append(i)
-
-
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
         plt.plot(sx, sy, "og") # plot the start position 
@@ -415,12 +399,11 @@ def main():
         
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 1
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 2
-        plt.plot(nc_x, nc_y,"or")  # plot the cost reduced area 3
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
 
-    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y,nc_x,nc_y)
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
 
     if show_animation:  # pragma: no cover
