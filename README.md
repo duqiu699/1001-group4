@@ -213,7 +213,7 @@ https://github.com/user-attachments/assets/a1930a31-6112-446d-ac06-e6f2d32dcdca
   
    <img src="https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif" alt="Obstacle" width="500"/>
 
-   [https://i.postimg.cc/4NBBhTjC/temp-Image-Dr-Jw-Om.avif](https://i.postimg.cc/vHB5kx2j/temp-Image-Jk6b-M4.avif)
+   <img src="https://i.postimg.cc/vHB5kx2j/temp-Image-Jk6b-M4.avif" alt="Obstacle" width="500"/>
    
   Comment: The correct path can be displayed, but there are two unrelated lines, which is a problem with the code that we can't solve for the moment.
   
