@@ -129,6 +129,7 @@ https://github.com/user-attachments/assets/fb234249-172f-4827-be9c-880d9200b41e
   ### Coding
   
   Click to enter the code interface
+  
   https://github.com/duqiu699/1001-group4/blob/main/Task%202
   
   #### Firstly，add a third code to modify the cost
@@ -186,6 +187,10 @@ https://github.com/user-attachments/assets/41c0d3a9-e654-41fb-a401-756f698a7802
   - All checkpoint need to be reached before arriving at the destination.
 
   ### Coding
+Click to enter the code interface
+
+https://github.com/duqiu699/1001-group4/blob/main/Task%20A1
+  
   #### Firstly, add one checkpoint for each cost intensive area
   <ins>cp1x</ins> and <ins>cp1y</ins> are for checkpoint1, <ins>cp2x</ins> and <ins>cp2y</ins> are for checkpoint2
   we can also adjust the checkpoint by change the number
@@ -224,6 +229,9 @@ https://github.com/user-attachments/assets/a1930a31-6112-446d-ac06-e6f2d32dcdca
    - Fuel-consuming area won't cover the obstacles and no obstacles should be generate at/near start and end point.
 
   ### Coding
+Click to enter the code interface
+
+
   #### Firstly, remain only the fuel-consuming area and generate it randomly with a fixed area
 
    <img src="https://i.postimg.cc/NjnBgS4Y/temp-Image8k-KWg-R.avif" alt="Obstacle" width="500"/>
