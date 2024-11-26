@@ -183,7 +183,7 @@ https://github.com/user-attachments/assets/41c0d3a9-e654-41fb-a401-756f698a7802
 
   ### Our calculation
   
-  <img src="https://i.postimg.cc/fyJxKmKG/20241112002252.jpg" alt="Obstacle" width="800"/>
+  <img src="https://i.postimg.cc/8cmT7QWk/data.jpg" alt="Obstacle" width="800"/>
 
   the airbus program
   
