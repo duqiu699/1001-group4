@@ -31,6 +31,7 @@ The aircraft type we have:
 3. A350-900
 
 First, the obstacle set for our group:
+
 <img src="https://i.postimg.cc/Hx1CWHPS/obstacle1.png" alt="Obstacle" width="500"/>
 
 
