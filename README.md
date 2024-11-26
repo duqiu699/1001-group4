@@ -88,6 +88,8 @@ To find the minimum cost, we have to use to following formula:
 
 <img src="https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif" alt="Obstacle" width="500"/>
 
+### Result
+
 ### Conclusion:
 
 https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
@@ -135,6 +137,8 @@ https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
   #### Lastly, plot the cost reduced area 3
 
   <img src="https://i.postimg.cc/k4w5MkSM/temp-Imagenf-Sy-XK.avif" alt="Obstacle" width="500"/>
+
+  ### Result
   
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
@@ -179,6 +183,8 @@ https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
   Because of the aircraft need to each all checkpoints before arriving at the destination, we can divide the path into three parts, calculate the time spent on each part and add it together to get the total time.
   
    <img src="https://i.postimg.cc/ZY6Qn2TZ/temp-Image-Fx-Arqa.avif" alt="Obstacle" width="500"/>
+
+   ### Result
 
 
   ### Conclusion
@@ -226,6 +232,8 @@ https://github.com/user-attachments/assets/d8126ef0-1882-4153-b054-a040701272db
   First generate cost intensive area, then plot the start and end position
   
    <img src="https://i.postimg.cc/QdQHVXFs/temp-Imagesf-FIUu.avif" alt="Obstacle" width="500"/>
+
+   ### Result
 
   ### Conclusion
   The final path is shown below, and we can also get total trip time in the terminal
