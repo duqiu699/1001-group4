@@ -272,11 +272,13 @@ https://github.com/duqiu699/1001-group4/blob/main/Task%20A2
 https://github.com/user-attachments/assets/228cbeb6-7baf-4892-82f3-329af438d6dc
 
   ### Conclusion
-  The final path is shown below, and we can also get total trip time in the terminal
+  Here are some example. The final path is shown below, and we can also get total trip time in the terminal
 
    <img src="https://i.postimg.cc/qRNxnhfW/temp-Image-Ijs-Bdt.avif" alt="Obstacle" width="500"/>
 
    <img src="https://i.postimg.cc/jjXFvJF5/temp-Imageg-ISu-Ke.avif" alt="Obstacle" width="500"/>
+
+   <img src="https://i.postimg.cc/prH35VQC/temp-Imagej-TUY0-P.avif" alt="Obstacle" width="500"/>
 
 
 ## Task A3
