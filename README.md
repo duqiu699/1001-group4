@@ -71,10 +71,10 @@ To find the minimum cost, we have to use to following formula:
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2G6hSH0/temp-Imageg-Rb-TK0.avif)
 
 #### Secondly, calculate trip cost
-##### ---input all data of three scenarios and use dictionary to encapsulate data of three types of aircrafts.
+##### ---Input all data of three scenarios and use dictionary to encapsulate data of three types of aircrafts.
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif)
 
-##### ---calculate the total cost if the flights number is eligible.
+##### ---Calculate the total cost if the flights number is eligible.
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif)
 
 ### Conclusion:
