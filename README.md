@@ -36,11 +36,13 @@ First, the obstacle set for our group:
 
 
 By editing the python programme, we can find the shortest way:
+
 <img src="https://i.postimg.cc/kXpzXq2x/image.png" alt="Obstacle" width="500"/>
 
 
 To find the minimum cost, we have to use to following formula:
-<img src="htt<img src="https://i.postimg.cc/0QnHgsgK/image.png" alt="Obstacle" width="500"/>ps://i.postimg.cc/0QnHgsgK/image.png" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/0QnHgsgK/image.png" alt="Obstacle" width="500"/>
 
  The 3 scenario:
 
@@ -60,25 +62,26 @@ To find the minimum cost, we have to use to following formula:
     - Time cost= low and Fuel Cost= 0.95 $/kg.
   
 ### Manuel Calculation
-<img src="" alt="Obstacle" width="500"/>
-![](https://i.postimg.cc/T2ZYdypk/IMG-2060.jpg)
+
+<img src="https://i.postimg.cc/T2ZYdypk/IMG-2060.jpg" alt="Obstacle" width="500"/>
+
   
 ### Coding
 [Task 1 code](https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201)
-<img src="" alt="Obstacle" width="500"/>
+<img src="https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201" alt="Obstacle" width="500"/>
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
-![](https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif)
-<img src="" alt="Obstacle" width="500"/>
-![](https://i.postimg.cc/Zq11mhYF/temp-Imagee-GJYSE.avif)
-<img src="" alt="Obstacle" width="500"/>
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/G2G6hSH0/temp-Imageg-Rb-TK0.avif)
-<img src="" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/8CFqxCGz/temp-Image6-CO4-El.avif" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/Zq11mhYF/temp-Imagee-GJYSE.avif" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/G2G6hSH0/temp-Imageg-Rb-TK0.avif" alt="Obstacle" width="500"/>
 
 #### Secondly, calculate trip cost
 ##### ---Input all data of three scenarios and use dictionary to encapsulate data of three types of aircrafts.
-![IMAGE ALT TEXT HERE](https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif)
-<img src="" alt="Obstacle" width="500"/>
+
+<img src="https://i.postimg.cc/25wz86JF/temp-Image-NT4-Ib-E.avif" alt="Obstacle" width="500"/>
 
 ##### ---Calculate the total cost if the flights number is eligible.
 ![IMAGE ALT TEXT HERE](https://i.postimg.cc/yNYNRc0r/temp-Image-Gl-Rf66.avif)
