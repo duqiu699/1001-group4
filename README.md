@@ -36,10 +36,11 @@ First, the obstacle set for our group:
 
 
 By editing the python programme, we can find the shortest way:
-![](https://i.postimg.cc/kXpzXq2x/image.png)
+<img src="https://i.postimg.cc/kXpzXq2x/image.png" alt="Obstacle" width="500"/>
 
 
 To find the minimum cost, we have to use to following formula:
+<img src="" alt="Obstacle" width="500"/>
 ![](https://i.postimg.cc/0QnHgsgK/image.png)
 
  The 3 scenario:
