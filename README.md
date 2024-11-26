@@ -144,6 +144,10 @@ https://github.com/user-attachments/assets/fb234249-172f-4827-be9c-880d9200b41e
 
   ### Result
   
+https://github.com/user-attachments/assets/41c0d3a9-e654-41fb-a401-756f698a7802
+
+
+  
   ### Conclusion
   After completing this task, we can recognize the importance of jet streams in the aviation industry, especially in terms of fuel savings and reducing flight times. At the same time, it has deepened our understanding and use of Python programming.
 
