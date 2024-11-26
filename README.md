@@ -231,7 +231,7 @@ https://github.com/user-attachments/assets/a1930a31-6112-446d-ac06-e6f2d32dcdca
   ### Coding
 Click to enter the code interface
 
-
+https://github.com/duqiu699/1001-group4/blob/main/Task%20A2
   #### Firstly, remain only the fuel-consuming area and generate it randomly with a fixed area
 
    <img src="https://i.postimg.cc/NjnBgS4Y/temp-Image8k-KWg-R.avif" alt="Obstacle" width="500"/>
