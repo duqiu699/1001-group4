@@ -69,6 +69,7 @@ To find the minimum cost, we have to use to following formula:
   
 ### Coding
 
+Click to enter the code interface
 https://github.com/duqiu699/1001-group4/blob/main/final%20code%20of%20task%201
 
 #### Firstly, set initial condition(start and goal position; border; cost intensive area)
@@ -125,6 +126,10 @@ https://github.com/user-attachments/assets/fb234249-172f-4827-be9c-880d9200b41e
     <img src="https://i.postimg.cc/G2MwFYmf/image.png" alt="Obstacle" width="500"/>
 
   ### Coding
+  
+  Click to enter the code interface
+  https://github.com/duqiu699/1001-group4/blob/main/Task%202
+  
   #### Firstly，add a third code to modify the cost
 
   <img src="https://i.postimg.cc/GpQ7XQYT/temp-Image1-TTOAy.avif" alt="Obstacle" width="500"/>
