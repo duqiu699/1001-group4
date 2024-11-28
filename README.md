@@ -181,7 +181,8 @@ https://github.com/user-attachments/assets/41c0d3a9-e654-41fb-a401-756f698a7802
    - Fixed cost is 2000 for Twin-engine aircraft, 2500 for 4-engine aircraft.
    - Each engine consumes fuel at 20kg/min.
 
-  ### Our calculation
+  ### Our steps in calculation
+  1. 
   
   <img src="https://i.postimg.cc/8cmT7QWk/data.jpg" alt="Obstacle" width="800"/>
 
