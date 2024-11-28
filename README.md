@@ -360,4 +360,6 @@ The group project for AAE1001 is an enriching and enlightening experience. The p
 
   ### Qaiser Katongole Mbidde (24111001D)
 
+This Group project helped a lot when it came to understanding how to work and correlate with others when it came to big coding projects. I previously had little prior coding knowledge, with absolutely no history with python. As such I found my task very difficult to carry out. As a group, we had already designated roles, and I did not want to let my groupmates down, as such I comitted a lot of time to learning how to use Python, and understanding the theories behind each recommended path-planning algorithm. I had initially tried to write the code for several other path planing algorithms, such as, beizer path, flow field and b spline, RRT and GBFS, with GBFS being the only one that produced an acceptable results on the first try. After hitting a road block, I decided to focus on just RRT playing around with the code, and while RRT produced a path, it was not optimal at all. I edit the RRT code turning it into RRT*, then edited it further till it was an LQRRRT* algorithm. The works done by both "" and "" really helped me with this.
+
   ### Hui Long Wai (24084234D)
