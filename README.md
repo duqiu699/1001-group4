@@ -182,9 +182,13 @@ https://github.com/user-attachments/assets/41c0d3a9-e654-41fb-a401-756f698a7802
    - Each engine consumes fuel at 20kg/min.
 
   ### Our steps in calculation
-  1. 
-  
-  <img src="https://i.postimg.cc/8cmT7QWk/data.jpg" alt="Obstacle" width="800"/>
+  1. Find out the total flight time for the flight path, which is about 105.0538 minutes according to the result of Task 1.
+  2. By obtaining that result, Taiwan Taoyuan International Airport (TPE) is chosen as our destination, departing from Hong Kong Innternational Airport (HKG).
+  3. According to the IATA Fuel Price Analysis as followed, the jet fuel price for flights that departure from Asian areas is about US$105.68/barrel. After calculation, the fuel cost is found to be US$0.78/kg.
+  <img src="https://i.postimg.cc/PrtQXHC7/3.png" alt="Obstacle" width="800"/>
+  4. Find out the time cost US$/min for each 50 passengers (e.g. US$12 for the aircraft that carries 100 passengers, US$14 for the aircraft that carries 150 passengers etc.).
+The results of the above steps are shown in the below table:
+  <img src="https://i.postimg.cc/pr9x84rM/1.png" alt="Obstacle" width="800"/>
 
   the airbus program
   
