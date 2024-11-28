@@ -303,10 +303,10 @@ https://github.com/user-attachments/assets/228cbeb6-7baf-4892-82f3-329af438d6dc
 ## Task A3
 For Task A3 our group has chosen 2 different Path Planning Algorithms namely:​​
 
-###GBFS (Greedy Best First Search)​​
+### GBFS (Greedy Best First Search)​​
 This is a search-based path planning algorithm, that uses the heuristic cost to calculate the path toward the goal. GBFS always selects the path which appears to be the best at that moment.​​
 
-###LQRRRT* (Linear Quadratic Regulator Rapidly Exploring Random Tree*)​​
+### LQRRRT* (Linear Quadratic Regulator Rapidly Exploring Random Tree*)​​
 On the other hand, LQRRRT* is a sampling-based path planning algorithm that is an optimized version of RRT* buy using a linear Quadratic Regulator.​
 
 ## Reflections
