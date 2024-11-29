@@ -319,7 +319,7 @@ Below are the results of the paths obtained using LQRRRT* and GBFS
 #### LQRRRT*
 <img src="https://i.postimg.cc/Dyqrh1YT/Whats-App-Image-2024-11-28-at-17-51-13-9c9e3eeb.jpg" alt="Path Created by LQRRRT*" width="500"/>
 
-<img src="https://i.postimg.cc/8kfdy2Rs/Whats-App-Image-2024-11-28-at-17-51-12-4ab93c23.jpg" alt="Whats-App-Image-2024-11-28-at-17-51-12-4ab93c23"/>
+<img src="https://i.postimg.cc/8kfdy2Rs/Whats-App-Image-2024-11-28-at-17-51-12-4ab93c23.jpg" alt="Whats-App-Image-2024-11-28-at-17-51-12-4ab93c23" width="500"/>
 
 ### Comparison
 As mentioned earlier, the LQRRRT* and the GBFS are two types of path-finding algorithms, with LQRRRT* being sample-based and GBFS being search-based. Comparing these algorithms reveals their differences and highlights their suitability for aviation. ​​
