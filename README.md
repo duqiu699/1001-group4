@@ -333,7 +333,7 @@ All in all, while GBFS offers lower computational demands, LQRRRT* is better sui
 ### Table of results
 
 | Scenario   | Best Aircraft    | LQRRRT* Cost   | GBFS Cost      | Savings with LQRRRT* |
-|------------|------------------|----------------|----------------|-----------------------|
+|------------|------------------|----------------|----------------|----------------------|
 | Scenario 1 | A330-900neo      | $143,859.97    | $159,112.00    | $15,252.03           |
 | Scenario 2 | A350-900         | $76,105.37     | $84,245.54     | $8,140.17            |
 | Scenario 3 | A321neo          | $139,741.36    | $154,067.55    | $14,326.19           |
